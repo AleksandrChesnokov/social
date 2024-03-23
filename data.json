@@ -1,0 +1,270 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Leroy", "last": "Nguyen" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/55.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Falcão", "last": "da Costa" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/38.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/38.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/38.jpg"
+      }
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Ms", "first": "Mya", "last": "Laurent" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/33.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/33.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/33.jpg"
+      }
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Miss", "first": "Sonika", "last": "Uchil" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/47.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/47.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/47.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Harold", "last": "Wheeler" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/35.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/35.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/35.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Nicklas", "last": "Pedersen" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/26.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/26.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/26.jpg"
+      }
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Miss", "first": "Ruby", "last": "Zhang" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/51.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/51.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
+      }
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Ms", "first": "Chloe", "last": "Jones" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/41.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Szymon", "last": "Nordbø" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/94.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/94.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/94.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Daniel", "last": "Maijala" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/55.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Logan", "last": "White" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/76.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/76.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/76.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Sadhil", "last": "Pujari" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/46.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/46.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/46.jpg"
+      }
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Miss", "first": "Julia", "last": "Powell" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/25.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/25.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/25.jpg"
+      }
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Miss", "first": "Zofia", "last": "Flem" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/13.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/13.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/13.jpg"
+      }
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Mrs", "first": "Editha", "last": "Böhringer" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/91.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/91.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/91.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Viraj", "last": "Babu" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/4.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/4.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/4.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Rafaél", "last": "Velásquez" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/90.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/90.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/90.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Patrik", "last": "Laugen" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/39.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/39.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/39.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Wieland", "last": "Edel" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/49.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/49.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/49.jpg"
+      }
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Monsieur", "first": "Ian", "last": "Lucas" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/12.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/12.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+      }
+    }
+  ]
+}
+
+
+let users = {
+  1: {
+    id: 1,
+    username: "Jilos",
+    email: "Jilos@mail.ru",
+    password: "password1",
+    profileId: 1,
+    friends: [2, 3],
+    posts: [1],
+    messages: [1],
+  },
+  2: {
+    id: 2,
+    username: "IrinaH",
+    email: "IrinaH@mail.ru",
+    password: "Password2",
+    profileId: 2,
+    friends: [1],
+    posts: [],
+    messages: [],
+  },
+  3: {
+    id: 3,
+    username: "grido",
+    email: "grido@mail.ru",
+    password: "Password3",
+    profileId: 3,
+    friends: [1],
+    posts: [],
+    messages: [],
+  },
+};
+
+let profiles = {
+  1: {
+    id: 1,
+    name: "Иван",
+    avatar: "https://randomuser.me/api/portraits/med/men/94.jpg",
+    bio: "Frontend developer",
+    location: "Москва, Россия",
+    birthday: new Date("1990-01-01"),
+    gender: "male",
+    interests: ["React", "JavaScript", "Web Development"],
+  },
+  2: {
+    id: 2,
+    name: "Ирина Глухова",
+    avatar: "https://randomuser.me/api/portraits/med/women/51.jpg",
+    bio: "Архитектор со страстью к созданию уникальных и функциональных архитектурных решений.",
+    location: "Пермь, Россия",
+    birthday: new Date("1995-03-09"),
+    gender: "female",
+    interests: ["Кино", "Литература", "Кулинария"],
+  },
+  3: {
+    id: 3,
+    name: "Алексей Дударев",
+    avatar: "https://randomuser.me/api/portraits/med/men/76.jpg",
+    bio: "Фотограф, исследующий красоту мира через объектив камеры.",
+    location: "Энгельс, Россия",
+    birthday: new Date("1993-09-02"),
+    gender: "male",
+    interests: ["Искусство", "Музыка", "Театр"],
+  },
+};
+
+let posts = {
+  1: {
+    id: 1,
+    authorId: 1,
+    text: "Привет, друзья! Как ваши выходные?",
+    timestamp: new Date("2024-03-14T18:00:00"),
+  },
+};
+
+let messages = {
+  1: {
+    id: 1,
+    senderId: 2,
+    recipientId: 1,
+    text: "Привет, Иван! Как дела?",
+    timestamp: new Date("2024-03-15T09:30:00"),
+  },
+};
