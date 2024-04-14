@@ -12,6 +12,7 @@ export const ChatListPage = observer(() => {
   const currentUserId = localStorage.getItem("userId") || "";
   const currentUser = users[currentUserId].id;
 
+  // Получение списка ID друзей текущего пользователя
   let myFriendIds = users[currentUserId].messages.map((i) =>
     messageData[i].senderId === users[currentUserId].id
       ? messageData[i].recipientId
@@ -19,6 +20,7 @@ export const ChatListPage = observer(() => {
   );
   let friendIdsSet: number[] = Array.from(new Set(myFriendIds));
 
+  // Функция для получения последнего сообщения с пользователем
   const getLastMessage = (userId) => {
     const userMessages = users[userId].messages;
     const filterFrinend = userMessages.filter(
@@ -31,6 +33,7 @@ export const ChatListPage = observer(() => {
     return messageData[lastMessageId];
   };
 
+  // Формирование списка друзей с последним сообщением
   let friendsWithLastMessage = friendIdsSet.map((user) => ({
     ...users[user],
     lastMessage: getLastMessage(user),

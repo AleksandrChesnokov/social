@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { observer } from "mobx-react-lite";
 import { Button, Avatar, List, message, Modal } from "antd";
 import { UserOutlined, MessageOutlined, PlusOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
@@ -6,12 +7,13 @@ import UsersStore from "../../store/UsersStore.tsx";
 
 const { confirm } = Modal;
 
-const UsersListPage = () => {
+const UsersListPage = observer(() => {
   const userId = localStorage.getItem("userId");
   const currentUser = UsersStore.users[userId];
 
   const [users, setUsers] = useState(UsersStore.users);
 
+  // Обработчик добавления в друзья
   const handleAddFriend = (userId) => {
     const friendRequestSent = currentUser.friendRequests.includes(userId);
     if (!friendRequestSent) {
@@ -30,6 +32,7 @@ const UsersListPage = () => {
     }
   };
 
+  // Обработчик принятия запроса в друзья
   const handleAcceptRequest = (requesterId) => {
     confirm({
       title: "Принять запрос?",
@@ -112,6 +115,6 @@ const UsersListPage = () => {
       )}
     />
   );
-};
+});
 
 export default UsersListPage;

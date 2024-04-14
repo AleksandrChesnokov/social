@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { List, Avatar, Input, Button } from "antd";
 import { observer } from "mobx-react-lite";
 import { useParams, Link } from "react-router-dom";
+import { UserOutlined } from "@ant-design/icons";
 import UsersStore from "../../store/UsersStore.tsx";
 import MessagesStore from "../../store/MessagesStore.tsx";
 
@@ -59,12 +60,14 @@ export const ChatWindowPage = observer(() => {
     }
     return mergedMessages;
   }
+  // Массив объединенных сообщений
   let mergedMessages: Message[] = compareMessages(currentUser, recipientUser);
 
   const [newMessage, setNewMessage] = useState<string>("");
   const messagesListRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
+  // Функция для прокрутки вниз списка сообщений
   const scrollToBottom = () => {
     if (messagesListRef.current !== null) {
       messagesListRef.current.scrollTop = messagesListRef.current.scrollHeight;
@@ -75,6 +78,7 @@ export const ChatWindowPage = observer(() => {
     scrollToBottom();
   }, [mergedMessages]);
 
+  // Обработчик отправки сообщения
   const handleSendMessage = () => {
     if (
       currentUser !== undefined &&
@@ -97,6 +101,7 @@ export const ChatWindowPage = observer(() => {
     }
   };
 
+  // Обработчик нажатия клавиши Enter
   const handleKeyPress = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
@@ -129,7 +134,12 @@ export const ChatWindowPage = observer(() => {
           renderItem={(item: Message) => (
             <List.Item actions={[item.timestamp]}>
               <List.Item.Meta
-                avatar={<Avatar src={users[item.senderId].avatar} />}
+                avatar={
+                  <Avatar
+                    src={users[item.senderId].avatar}
+                    icon={<UserOutlined />}
+                  />
+                }
                 title={
                   <Link to={`/${item.senderId}`}>
                     {users[item.senderId].fullname}

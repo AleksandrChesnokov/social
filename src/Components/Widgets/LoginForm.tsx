@@ -12,6 +12,7 @@ const LoginForm = () => {
   const navigate = useNavigate();
   const { users, findUserByEmail } = UsersStore;
 
+  // Функция для аутентификации пользователя
   const authenticateUser = (email: string, password: string) => {
     const user = findUserByEmail(email);
     if (!user || user.password !== password) {
@@ -21,6 +22,7 @@ const LoginForm = () => {
     return { success: true, message: "Вы авторизовались", user };
   };
 
+  // Обработчик отправки формы
   const handleLoginFinish = (values: LoginFormValues) => {
     const { email, password } = values;
     const loginResult = authenticateUser(email, password);

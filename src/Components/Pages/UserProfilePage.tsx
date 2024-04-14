@@ -33,7 +33,7 @@ interface Comment {
   content: string;
 }
 
-export const UserProfilePage: React.FC = observer(() => {
+export const UserProfilePage = observer(() => {
   const { id } = useParams();
   const { users } = UsersStore;
   const { posts, addCommentToPost } = PostsStore;
@@ -48,6 +48,7 @@ export const UserProfilePage: React.FC = observer(() => {
     return <div>Такого пользователя нет</div>;
   }
 
+  // Формирование списка друзей и постов выбранного пользователя
   const userFriends: User[] | null = selectedUser
     ? selectedUser.friends.map((i) => users[i])
     : null;
@@ -55,24 +56,29 @@ export const UserProfilePage: React.FC = observer(() => {
     ? selectedUser.posts.map((i) => posts[i])
     : null;
 
+  // Проверка, является ли выбранный пользователь другом текущего пользователя
   const isFriendOfCurrentUser: boolean | null = selectedUser
     ? users[currentUserId].friends.includes(selectedUser.id)
     : null;
 
+  // Проверка, является ли выбранный пользователь текущим пользователем
   const isCurrentUser: boolean = selectedUser === users[currentUserId];
 
+  // Обработчик изменения в поле ввода комментария
   const handleCommentInputChange = (
     e: React.ChangeEvent<HTMLTextAreaElement>
   ) => {
     setCommentContent(e.target.value);
   };
 
+  // Обработчик клика по посту
   const handlePostClick = (post: Post) => {
     setSelectedPost(post);
     setComments(post.comments || []);
     setIsModalVisible(true);
   };
 
+  // Обработчик добавления комментария
   const handleAddComment = () => {
     if (commentContent.trim() === "") return;
     const newComment: Comment = {
@@ -84,6 +90,7 @@ export const UserProfilePage: React.FC = observer(() => {
     setCommentContent("");
   };
 
+  // Обработчик закрытия модального окна
   const handleCancel = () => {
     setSelectedPost(null);
     setIsModalVisible(false);
